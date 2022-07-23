@@ -1,0 +1,11 @@
+TAILWIND SETUP
+sudo npm install tailwindcss postcss-preset-env postcss-flexbugs-fixes autoprefixer
+sudo npx tailwindcss init -p
+
+SCSS SETUP
+sudo npm install scss
+
+add following to globals.css...
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
